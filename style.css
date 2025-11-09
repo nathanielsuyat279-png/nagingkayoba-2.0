@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+video {
+  width: 300px;
+  height: 300px; /* makes it 1:1 */
+  border-radius: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+.small-word {
+  font-weight: normal;
+  font-size: 0.8em;
+}
